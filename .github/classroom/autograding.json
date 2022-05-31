@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Teacher Tests",
+      "setup": "sudo -H pip3 install pytest pytest-pylint",
+      "run": "pytest --pyline ./tests/test_teacher_tests.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Task 1",
+      "setup": "sudo -H pip3 install pytest pytest-pylint",
+      "run": "pytest --pylint ./tests/test_task1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Task 2",
+      "setup": "sudo -H pip3 install pytest pytest-pylint",
+      "run": "pytest --pylint ./tests/test_task2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Task3",
+      "setup": "sudo -H pip3 install pytest pytest-pylint",
+      "run": "pytest --pylint ./tests/test_task3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Task 4",
+      "setup": "sudo -H pip3 install pytest pytest-pylint",
+      "run": "pytest --pylint ./tests/test_task4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Task 5",
+      "setup": "sudo -H pip3 install pytest pytest-pylint",
+      "run": "pytest --pylint ./tests/test_task5.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
