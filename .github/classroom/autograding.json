@@ -3,7 +3,7 @@
     {
       "name": "Teacher Tests",
       "setup": "sudo -H pip3 install pytest pytest-pylint",
-      "run": "pytest --pyline ./tests/test_teacher_tests.py",
+      "run": "pytest --pylint ./tests/test_teacher_tests.py",
       "input": "",
       "output": "",
       "comparison": "included",
